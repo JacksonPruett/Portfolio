@@ -3,3 +3,8 @@
     margin: auto;
     width: auto;
 }
+
+.nbar a:hover {
+    opacity: 0.3;
+}
+  
