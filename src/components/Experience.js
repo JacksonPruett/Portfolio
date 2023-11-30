@@ -3,6 +3,9 @@ import { DiRuby } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
+import { SiRubyonrails } from "react-icons/si";
+
+
 import "./CSS/experience.css";
 
 const Exp = () => {
@@ -24,6 +27,9 @@ const Exp = () => {
         </li>
         <li className="exp-icons">
           <BiLogoPostgresql size={50} color="white" />
+        </li>
+        <li className="exp-icons">
+          <SiRubyonrails size={50} color="white" />
         </li>
       </ul>
     </section>
