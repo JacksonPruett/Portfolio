@@ -1,0 +1,31 @@
+h1 {
+    color: white;
+    margin: auto;
+    width: 75%;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.exp {
+    width: auto;
+    
+}
+
+.exp-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    gap: 60.45px;
+}
+
+.exp-icons {
+    background-color: gray;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}

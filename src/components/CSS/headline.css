@@ -1,0 +1,48 @@
+.logo-image {
+    width: 213px;
+    height: 213px;
+    margin: auto;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.name,
+.headline {
+    color: #FBFBFB;
+    display: flex;
+width: 670px;
+height: 127px;
+padding: 0px 8px 0px 6px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
+
+
+/* This centered my name and the headline */
+.name,
+.headline {
+    width: auto;
+}
+
+.name {
+    color: var(--Primary-Color, #FFF);
+text-align: center;
+font-family: Poppins;
+font-size: 55px;
+font-style: normal;
+font-weight: 800;
+line-height: 63.357px; /* 115.195% */
+}
+
+.headline {
+    color: var(--Primary-Color, #FFF);
+text-align: center;
+font-family: Poppins;
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: 63.357px; /* 115.195% */
+}
+
