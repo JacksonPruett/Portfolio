@@ -3,6 +3,8 @@ import { MdOutlineMail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaArrowAltCircleUp } from "react-icons/fa";
+import { BiSolidCoffeeTogo } from "react-icons/bi";
+
 
 const Footer = () => {
   return (
@@ -30,6 +32,11 @@ const Footer = () => {
           <li className="links">
             <a href="https://www.linkedin.com/in/jacksoncpruett/" target="_blank">
               <FaLinkedin color="white" size={30} />
+            </a>
+          </li>
+          <li className="links">
+            <a href="https://www.buymeacoffee.com/jacksonpruett" target="_blank">
+              <BiSolidCoffeeTogo color="white" size={30} />
             </a>
           </li>
         </ul>
