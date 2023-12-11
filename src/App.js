@@ -22,10 +22,8 @@ const App = () => {
           <div className="content-exp">
             <Experience />
           </div>
-          <div className="content-projects">
             <Projects />
           </div>
-        </div>
         <div className="footer">
           <Footer />
         </div>

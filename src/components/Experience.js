@@ -6,12 +6,13 @@ import { BiLogoPostgresql } from "react-icons/bi";
 import { SiRubyonrails } from "react-icons/si";
 
 
+
 import "./CSS/experience.css";
 
 const Exp = () => {
   return (
     <section className="exp" id="experience">
-      <h1>Experience</h1>
+      <h1>Experience in</h1>
       <ul className="exp-list">
         <li className="exp-icons">
           <FaGithub size={50} color="white" />

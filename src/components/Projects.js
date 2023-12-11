@@ -1,19 +1,20 @@
-import ProjectCards from './ProjectCards'
-import "./CSS/projects.css"
+import ProjectCards from "./ProjectCards";
+import "./CSS/projects.css";
 
 const Projects = () => {
-    const projects = ["Project 1", "Project 2"];
+  const projects = ["Project 1", "Project 2"];
 
-    return (
-      <>    
-        <h1 className="projects"></h1>
-        <div className="projects-cards">
-        {projects.map((projects, index) => {
-          return <ProjectCards title={projects} />;
-        })}
+  return (
+    <>
+      <h1 className="projects">Projects</h1>
+      {/* This is to be able to position the cards  */}
+      <div className="projects-flex">
+          {projects.map((projects, index) => {
+            return <ProjectCards title={projects} />;
+          })}
       </div>
-      </>
-    );
-}
- 
+    </>
+  );
+};
+
 export default Projects;
