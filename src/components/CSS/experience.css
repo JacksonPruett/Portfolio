@@ -15,6 +15,7 @@ h1 {
 
 .exp-list {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     list-style: none;

@@ -11,6 +11,7 @@ import "./App.css";
 const App = () => {
   return (
     <>
+      <div className="flex-app">
         <div className="nav">
           <Navbar />
         </div>
@@ -19,14 +20,13 @@ const App = () => {
           <div className="about-me">
             <About />
           </div>
-          <div className="content-exp">
             <Experience />
-          </div>
-            <Projects />
-          </div>
+          <Projects />
+        </div>
         <div className="footer">
           <Footer />
         </div>
+      </div>
     </>
   );
 };

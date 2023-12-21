@@ -1,9 +1,9 @@
-import "./CSS/footer.css";
 import { MdOutlineMail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaArrowAltCircleUp } from "react-icons/fa";
 import { BiSolidCoffeeTogo } from "react-icons/bi";
+import "./CSS/footer.css";
 
 
 const Footer = () => {
@@ -40,11 +40,6 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <div className="top-page-arrow">
-          <a id="navbar">
-          <FaArrowAltCircleUp color="white" size={30} href="#navbar" />
-          </a>
-        </div>
       </section>
     </>
   );

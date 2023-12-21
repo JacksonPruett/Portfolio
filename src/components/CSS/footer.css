@@ -1,3 +1,10 @@
+.footer {
+    width: auto;
+    height: 418.759px;
+    flex-shrink: 0;
+    background: #191919;
+  }
+
 h4,
 h2 {
     color: rgb(208, 208, 208);
