@@ -40,6 +40,7 @@ const Footer = () => {
             </a>
           </li>
         </ul>
+        <br/>
       </section>
     </>
   );

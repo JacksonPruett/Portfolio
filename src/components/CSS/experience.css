@@ -23,7 +23,7 @@ h1 {
 }
 
 .exp-icons {
-    background-color: gray;
+    background-color: rgb(37, 37, 37);
     border-radius: 100%;
     display: flex;
     align-items: center;

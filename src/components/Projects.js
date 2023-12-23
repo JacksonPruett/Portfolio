@@ -6,7 +6,7 @@ const Projects = () => {
 
   return (
     <>
-      <h1 className="projects">Projects</h1>
+      <h1 id="projects" className="projects">Projects</h1>
       {/* This is to be able to position the cards  */}
       <div className="projects-flex">
           {projects.map((projects, index) => {

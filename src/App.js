@@ -11,22 +11,12 @@ import "./App.css";
 const App = () => {
   return (
     <>
-      <div className="flex-app">
-        <div className="nav">
-          <Navbar />
-        </div>
-        <div className="content">
-          <Headline />
-          <div className="about-me">
-            <About />
-          </div>
-            <Experience />
-          <Projects />
-        </div>
-        <div className="footer">
-          <Footer />
-        </div>
-      </div>
+      <Navbar />
+      <Headline />
+      <About />
+      <Experience />
+      <Projects />
+      <Footer />
     </>
   );
 };

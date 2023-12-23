@@ -11,12 +11,12 @@ const Navi = () => {
   return (
     <div className="nbar">
       <Navbar className="navbar" light expand="md">
-        <NavbarBrand id="logo" className="text-light" href="/">JP</NavbarBrand>
+        <NavbarBrand id="logo" className="text-light" href="/">JPruett</NavbarBrand>
         <NavbarToggler onClick={toggle}>
           <img src={burger_menu} alt="burger menu icon" />
         </NavbarToggler>
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="ml-auto" navbar>
+          <Nav navbar>
             <NavItem>
               <NavLink href="#experience">Experience</NavLink>
             </NavItem>
