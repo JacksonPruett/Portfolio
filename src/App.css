@@ -2,3 +2,24 @@
   text-align: center;
 }
 
+body {
+  width: auto;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: auto;
+  height: 2000px;
+  background: rgb(108,142,173);
+background: -moz-radial-gradient(circle, rgba(108,142,173,1) 0%, rgba(0,0,0,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(108,142,173,1) 0%, rgba(0,0,0,1) 100%);
+background: radial-gradient(circle, rgba(108,142,173,1) 0%, rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6c8ead",endColorstr="#000000",GradientType=1);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

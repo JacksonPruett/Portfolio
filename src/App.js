@@ -11,22 +11,12 @@ import "./App.css";
 const App = () => {
   return (
     <>
-        <div className="nav">
-          <Navbar />
-        </div>
-        <div className="content">
-          <Headline />
-          <div className="about-me">
-            <About />
-          </div>
-          <div className="content-exp">
-            <Experience />
-          </div>
-            <Projects />
-          </div>
-        <div className="footer">
-          <Footer />
-        </div>
+      <Navbar />
+      <Headline />
+      <About />
+      <Experience />
+      <Projects />
+      <Footer />
     </>
   );
 };

@@ -1,13 +1,20 @@
-
+.logo-img-flex {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
 
 .logo-image {
   width: 213px;
   height: 213px;
-  margin: auto;
-  padding: 25px;
-  display: flex;
-  justify-content: center;
+  z-index: 1;
+  border-radius: 25%;
 }
+
+.logo-img-flex img {
+  animation: floating 3s ease-in-out infinite;
+}
+
 
 .name,
 .headline {

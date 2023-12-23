@@ -1,25 +1,40 @@
 import React, { useState } from "react";
-import { NavbarBrand, Navbar, NavLink, NavbarText } from "reactstrap";
-import './CSS/navbar.css'
+import { Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink } from "reactstrap";
+import './CSS/navbar.css';
+import burger_menu from "./assets/burger-menu-svgrepo-com.svg"
 
-const Nav = () => {
+const Navi = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <>
     <div className="nbar">
-      <Navbar className="navbar" href="#navbar">
-        <NavbarBrand id="logo" className="text-light" href="/">JP</NavbarBrand>
-        <NavbarBrand className="text-light" href="#experience">Experience</NavbarBrand>
-        <NavbarBrand className="text-light" href="#contact">Contact</NavbarBrand>
-        <NavbarBrand className="text-light" href="#about">About</NavbarBrand>
-        <NavbarBrand className="text-light" href="#projects">Projects</NavbarBrand>
+      <Navbar className="navbar" light expand="md">
+        <NavbarBrand id="logo" className="text-light" href="/">JPruett</NavbarBrand>
+        <NavbarToggler onClick={toggle}>
+          <img src={burger_menu} alt="burger menu icon" />
+        </NavbarToggler>
+        <Collapse isOpen={isOpen} navbar>
+          <Nav navbar>
+            <NavItem>
+              <NavLink href="#experience">Experience</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#contact">Contact</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#about">About</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#projects">Projects</NavLink>
+            </NavItem>
+          </Nav>
+        </Collapse>
       </Navbar>
-      </div>
-    </>
+    </div>
   );
 };
 
-export default Nav;
+export default Navi;
+
